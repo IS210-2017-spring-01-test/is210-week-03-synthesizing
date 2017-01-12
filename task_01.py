@@ -4,3 +4,4 @@
 
 
 import inquisition
+FISHY = inquisition.SPANISH.replace()
