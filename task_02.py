@@ -9,5 +9,5 @@ phrase = inquisition.SPANISH
 pattern = 'Spanish'
 replace = 'Flemish'
 
-print phrase[:phrase.index(pattern)] + replace + \
-      phrase[phrase.index(pattern) + len(pattern):]
+FLEMISH = phrase[:phrase.index(pattern)] + replace + \
+          phrase[phrase.index(pattern) + len(pattern):]
