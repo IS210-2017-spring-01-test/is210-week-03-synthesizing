@@ -4,3 +4,10 @@
 
 
 import inquisition
+
+phrase = inquisition.SPANISH
+pattern = 'Spanish'
+replace = 'Flemish'
+
+FLEMISH = phrase[:phrase.index(pattern)] + replace + \
+          phrase[phrase.index(pattern) + len(pattern):]
